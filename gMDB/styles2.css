@@ -1,0 +1,93 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F4F3F3;
+    color: black;
+    text-align: center;
+  }
+  .footer p{
+  margin-top: 1em;
+  }
+  .container{
+   margin-top: 4em;
+  }
+  .movie-name {
+      font-size: 2em;
+      color: white;
+  }
+  .movieimg {
+    background-size: cover;
+    height: 28em;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .rating{
+      float: right;
+      color: white;
+      position: relative;
+      top: -4em;
+  }
+  .far{
+      color:#ffdf00;
+      font-size: 2em;
+  }
+  .rate{
+      font-size: 2em;
+  }
+  
+  
+  .logo{
+    height: 2em;
+    width: 3.5em;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #F4F3F3;
+  }
+  .trending-menu{
+    padding-right: 13em;
+  }
+  .fa-home{
+    font-size: 1.6em;
+  }
+  .left{
+    width: 10em;
+    padding-right: 2em;
+    text-align: right;
+    vertical-align: top;
+    }
+    table{
+        color: white;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 1.4em;
+
+    }
+    body{
+        background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .one{
+      display:none;
+    }
+    .login{
+      border: 1px solid black;
+      border-radius: 6px;
+      background-color: white;
+    }
+    
+  
+    
+    .footer p{
+      font-size: 12px;
+      margin-top: 1em;
+    }
+  }
+  
